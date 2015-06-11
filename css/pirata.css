@@ -1,4 +1,6 @@
 img.img-circle {
 	box-shadow:0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
 }
-
+img.img-responsive {
+	border-radius:1em;
+}
