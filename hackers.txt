@@ -1,0 +1,3 @@
+﻿Código fonte do site: https://notabug.org/piratas/desgovernanca-site
+
+Falhas de segurança deveriam ser encaminhadas para iuf [at] pirata.xyz

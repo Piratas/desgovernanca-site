@@ -1,0 +1,52 @@
+﻿/* TIME */
+	Entidade cognoscível: Coletivo Piratas XYZ
+	Contato: iuf [at] pirata.xyz
+	De: piratas.xyz
+	
+	Facilitador, Organizador: Kannon
+	Twitter: @yurisanson
+	De: Piratas no Brasil
+
+	Facilitador, Organizador, Desenvolvedor Web: Iuri Guilherme
+	Contato: https://iuri.neocities.org/contatos.html
+	Qvitter: @iuri@quitter.se
+	Twitter: @aindatenhoconta
+	De: Piratas no Brasil
+
+	Consultor Web: Desci
+	Contato: desci [at] riseup.net
+	De: Hacklab Independência
+
+/* AGRADECIMENTOS */
+
+	Piratas que ajudaram a criar e traduzir todos textos utilizados
+
+	Piratas que criaram as artes utilizadas
+
+	Piratas que estão correndo atrás de financiamento para o evento
+
+	Piratas que estão correndo atrás de apoio e parcerias
+
+	Piratas que estão no ZapZaPirata colaborando como podem
+
+	Piratas que estão contribuindo pelo Loomio e por e-mail
+
+	Organização do IGF por fazer um forum tão ruim que justifica o nosso esforço
+
+	Pioneiras(os) que fizeram o primeiro forum de desgovernança na Turquia
+
+	Quem fizer questão de botar o nome aqui nos avise!
+
+/* SITE */
+	Licença: GPL 3.0
+	Código fonte: https://notabug.org/piratas/desgovernanca-site
+	Última atualização: 12 de junho de 2015
+	Linguagens: Português Brasileiro / English
+	Doctype: HTML5
+	Softwares utilizados:
+		Edição de texto: Vim, Gedit, Notepad++, Etherpad, Hackpad, LibreOffice;
+		Edição de imagens: GIMP, Photoshop (pirata);
+		Desenvolvimento web: ssh, scp, rsync, git, Git Bash, Gogs;
+		Manutenção do site: Xen, Debian, Nginx;
+		Comunicação: ZapZaPirata, Telegram, Loomio;
+	Kopiado do original em https://iuf.alternatifbilisim.org/
