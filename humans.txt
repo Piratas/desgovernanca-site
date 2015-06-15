@@ -40,7 +40,7 @@
 /* SITE */
 	Licença: GPL 3.0
 	Código fonte: https://notabug.org/piratas/desgovernanca-site
-	Última atualização: 12 de junho de 2015
+	Última atualização: 15 de junho de 2015
 	Linguagens: Português Brasileiro / English
 	Doctype: HTML5
 	Softwares utilizados:
