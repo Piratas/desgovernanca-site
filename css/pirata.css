@@ -23,3 +23,12 @@ a.ativo {
 .jumbotron a {
 	font-size:large;
 }
+.jumbotron {
+	background: -moz-linear-gradient(-45deg,  rgba(255,0,46,0.7) 0%, rgba(255,255,255,0) 100%), url('./assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,0,46,0.7)), color-stop(100%,rgba(255,255,255,0))), url('./assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(255,0,46,0.7) 0%,rgba(255,255,255,0) 100%), url('./assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(255,0,46,0.7) 0%,rgba(255,255,255,0) 100%), url('./assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(255,0,46,0.7) 0%,rgba(255,255,255,0) 100%), url('./assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* IE10+ */
+	background: linear-gradient(135deg,  rgba(255,0,46,0.7) 0%,rgba(255,255,255,0) 100%), url('./assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ff002e', endColorstr='#00ffffff',GradientType=1 ), url('./assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* IE6-9 fallback on horizontal gradient */
+  }
