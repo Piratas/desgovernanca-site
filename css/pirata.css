@@ -32,3 +32,6 @@ a.ativo {
 	background: linear-gradient(135deg,  rgba(255,0,46,0.7) 0%,rgba(255,255,255,0) 100%), url('../assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ff002e', endColorstr='#00ffffff',GradientType=1 ), url('../assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* IE6-9 fallback on horizontal gradient */
   }
+  .body-content h1 {
+  font-size:x-large;
+}
