@@ -17,17 +17,22 @@
 	Contato: desci [at] riseup.net
 	De: Hacklab Independência
 
+	Designer: Renan Vilela
+	De: Piratas no Brasil
+
 /* AGRADECIMENTOS */
 
 	Piratas que ajudaram a criar e traduzir todos textos utilizados
 
 	Piratas que criaram as artes utilizadas
+	
+		Renan Vilela pelo folder, e pelos banners
 
 	Piratas que estão correndo atrás de financiamento para o evento
 
 	Piratas que estão correndo atrás de apoio e parcerias
 
-	Piratas que estão no ZapZaPirata colaborando como podem
+	Piratas que estão no ZapZaPirata colaborando como podem e tendo paciência com o Iuri
 
 	Piratas que estão contribuindo pelo Loomio e por e-mail
 
@@ -45,7 +50,7 @@
 	Doctype: HTML5
 	Softwares utilizados:
 		Edição de texto: Vim, Gedit, Notepad++, Etherpad, Hackpad, LibreOffice;
-		Edição de imagens: GIMP, Photoshop (pirata);
+		Edição de imagens: GIMP, Photoshop (pirata), Adobe Illustrator (pirata);
 		Desenvolvimento web: ssh, scp, rsync, git, Git Bash, Gogs;
 		Manutenção do site: Xen, Debian, Nginx;
 		Comunicação: ZapZaPirata, Telegram, Loomio;
