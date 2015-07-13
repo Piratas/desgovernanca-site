@@ -5,11 +5,6 @@ img.img-circle {
 img.img-responsive {
 	border-radius:1em;
 }
-a.ativo {
-	padding:0.5em;
-	border-radius:0.2em;
-	box-shadow:inset 0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
-}
 .navbar a{
 	padding-top:0.1em;
 	padding-bottom:0.1em;
@@ -31,7 +26,21 @@ a.ativo {
 	background: -ms-linear-gradient(-45deg,  rgba(255,0,46,0.7) 0%,rgba(255,255,255,0) 100%), url('../assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* IE10+ */
 	background: linear-gradient(135deg,  rgba(255,0,46,0.7) 0%,rgba(255,255,255,0) 100%), url('../assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ff002e', endColorstr='#00ffffff',GradientType=1 ), url('../assets/forumdesgovernanca_web.png') no-repeat center center #333333; /* IE6-9 fallback on horizontal gradient */
-  }
-  .body-content h1 {
-  font-size:x-large;
 }
+.body-content h1 {
+	font-size:x-large;
+}
+img.bandeira {
+	max-height:32px;
+	max-width:100%;
+	border-radius:0.2em;
+	box-shadow:0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
+}
+a.bandeira {
+	padding:0.5em;
+	font-size:xx-small;
+}
+a.ativo {
+	font-size:xx-large;
+}
+
