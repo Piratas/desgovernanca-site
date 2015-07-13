@@ -43,4 +43,11 @@ a.bandeira {
 a.ativo {
 	font-size:xx-large;
 }
+a.social {
+	padding:0.5em;
+}
+img.social {
+	max-height:48px;
+	max-width:100%;
+}
 
