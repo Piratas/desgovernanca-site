@@ -1,11 +1,12 @@
 ﻿/* TIME */
+
 	Entidade cognoscível: Coletivo Piratas XYZ
 	Contato: iuf [at] pirata.xyz
 	De: piratas.xyz
 	
 	Facilitador, Organizador: Kannon
 	Twitter: @yurisanson
-	De: Piratas no Brasil
+	De: Piratas no Brasil (partidopirata.org)
 
 	Facilitador, Organizador, Desenvolvedor Web: Iuri Guilherme
 	Contato: https://iuri.neocities.org/contatos.html
@@ -19,6 +20,20 @@
 
 	Designer: Renan Vilela
 	De: Piratas no Brasil
+
+	Desorganizador: Pyter
+	Twitter: @wagnerpyter
+	De: Motirõ Pirata
+
+	Desorganizador: Corvolino
+	Twitter: @corvolinoPUNK
+	De: MNU
+
+	Desenvolvedor Web: Texas Jack
+	Twitter: @tjackgnu
+
+	Desenvolvedora Web: Renata D'Ávila
+	Twitter: @RSiP22
 
 /* AGRADECIMENTOS */
 
@@ -42,10 +57,14 @@
 
 	Quem fizer questão de botar o nome aqui nos avise!
 
+/* DESAGRADECIMENTOS */
+
+	Article19 que retirou o apoio do site e ao IUF em geral
+
 /* SITE */
 	Licença: GPL 3.0
 	Código fonte: https://notabug.org/piratas/desgovernanca-site
-	Última atualização: 15 de junho de 2015
+	Última atualização: 30 de julho de 2015
 	Linguagens: Português Brasileiro / English
 	Doctype: HTML5
 	Softwares utilizados:
