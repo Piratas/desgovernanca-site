@@ -1,9 +1,9 @@
-﻿/* TIME */
+/* TIME */
 
 	Entidade cognoscível: Coletivo Piratas XYZ
 	Contato: iuf [at] pirata.xyz
 	De: piratas.xyz
-	
+
 	Facilitador, Organizador: Kannon
 	Twitter: @yurisanson
 	De: Piratas no Brasil (partidopirata.org)
@@ -40,7 +40,7 @@
 	Piratas que ajudaram a criar e traduzir todos textos utilizados
 
 	Piratas que criaram as artes utilizadas
-	
+
 		Renan Vilela pelo folder, e pelos banners
 
 	Piratas que estão correndo atrás de financiamento para o evento
