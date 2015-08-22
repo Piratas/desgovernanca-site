@@ -31,7 +31,7 @@ img.img-responsive {
 	font-size:x-large;
 }
 img.bandeira {
-	max-height:32px;
+	max-height:24px;
 	max-width:100%;
 	border-radius:0.2em;
 	box-shadow:0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
@@ -49,5 +49,11 @@ a.social {
 img.social {
 	max-height:48px;
 	max-width:100%;
+}
+.blog-masthead {
+	background-color:#EEE;
+}
+a.blog-nav-item {
+	color:#B7005B;
 }
 
