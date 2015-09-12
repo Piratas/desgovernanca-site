@@ -81,7 +81,15 @@ img.funding {
 	max-height:64px;
 	max-width:100%;
 }
-body {
-  background-image:url("../assets/textura.png");
-  background-repeat:repeat;
+body, .blog-footer {
+	background-image:url("../assets/textura.png");
+	background-repeat:repeat;
 }
+span.ativo {
+	background-color:#EEE;
+	color:#B7005B;
+}
+.blog-masthead {
+	background:none;
+}
+
