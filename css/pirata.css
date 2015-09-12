@@ -37,17 +37,19 @@ img.bandeira {
 	box-shadow:0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
 }
 a.bandeira {
-	padding:0.5em;
-	font-size:xx-small;
+	color:#EEE;
+	/*padding:0.5em;
+	font-size:xx-small;*/
 }
-a.ativo {
+.list-group a.ativo {
 	font-size:xx-large;
+	background-color:#EEE;
 }
 a.social {
 	padding:0.5em;
 }
 img.social {
-	max-height:48px;
+	max-height:32px;
 	max-width:100%;
 }
 .blog-masthead {
@@ -56,4 +58,30 @@ img.social {
 a.blog-nav-item {
 	color:#B7005B;
 }
-
+.navbar {
+	background:none;
+}
+.nav-pills li.active a {
+	color:#B7005B;
+	background-color:#EEE;
+	border-radius:2em;
+	box-shadow:0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
+}
+.nav-pills li.active a:hover {
+	color:#EEE;
+	background-color:#B7005B;
+}
+.navbar-header button {
+	background-color:#EEE;
+}
+.navbar-header span.icon-bar {
+	background-color:#B7005B;
+}
+img.funding {
+	max-height:64px;
+	max-width:100%;
+}
+body {
+  background-image:url("../assets/textura.png");
+  background-repeat:repeat;
+}

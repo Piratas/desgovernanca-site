@@ -99,6 +99,7 @@ $ZZ$Z?OO7I??++++++++????+?+++++++=========~~~::::~=$$$Z$8OO8OO8OOOOI=~~~~:::::::
 	<link href="./css/bootstrap-theme.css.map" rel="stylesheet" type="text/css">
 	<link href="./css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
 	<link href="./css/carousel.css" rel="stylesheet" type="text/css">
+    <link href="./css/offcanvas.css" rel="stylesheet" type="text/css">
 	<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="./css/main.css" rel="stylesheet" type="text/css">
 	<link href="./css/pirata.css" rel="stylesheet" type="text/css">
@@ -116,37 +117,70 @@ $ZZ$Z?OO7I??++++++++????+?+++++++=========~~~::::~=$$$Z$8OO8OO8OOOOI=~~~~:::::::
 </head>
 <body>
 
-<div class="navbar navbar-fixed-top pull-right">
-	<div class="container text-center" style="color:#999">
-		<span class="menu">
-		<a href="#sobre" class="scroll" lang="pt-br">Sobre</a> ∙
-		<a href="#campanha" class="scroll" lang="pt-br">Campanha</a> ∙
-		<a href="#convidadas" class="scroll" lang="pt-br">Convidadas</a> ∙
-		<a href="#apoio" class="scroll" lang="pt-br">Apoio</a> ∙
+<nav class="navbar navbar-fixed-top pull-right">
+<div class="container">
+<div class="navbar-header">
+	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+<div id="navbar" class="collapse navbar-collapse">
+
+<ul class="nav navbar-nav nav-pills" role="tablist">
+	<li role="presentation" class="active">
+		<a href="#sobre" class="scroll" lang="pt-br">
+			<span>Sobre</span>
+		</a>
+	</li>
+	<li role="presentation" class="active">
+		<a href="#campanha" class="scroll" lang="pt-br">
+			<span>Campanha</span>
+		</a>
+	</li>
+	<li role="presentation" class="active">
+		<a href="#convidadas" class="scroll" lang="pt-br">
+			<span>Convidadas</span>
+		</a>
+	</li>
+	<li role="presentation" class="active">
+		<a href="#apoio" class="scroll" lang="pt-br">
+			<span>Apoio</span>
+		</a>
+	</li>
 <!--		<a href="#venue" class="scroll" lang="pt-br">Venue</a> ∙-->
-		<!--<a href="#participate" class="scroll" lang="pt-br">Participa&ccedil;&atilde;o</a> ∙-->
-		<!-- <a href="#announcement" class="scroll" lang="pt-br">An&uacute;ncio</a> ∙ -->
+	<!--<a href="#participate" class="scroll" lang="pt-br">Participa&ccedil;&atilde;o</a> ∙-->
+	<!-- <a href="#announcement" class="scroll" lang="pt-br">An&uacute;ncio</a> ∙ -->
 <!--		<a href="#program" class="scroll" lang="pt-br">Agenda e Palestrantes</a> ∙-->
-		<!-- <a href="#register" class="scroll" lang="pt-br">Registro</a> ∙ -->
-		<a href="#contato" class="scroll" lang="pt-br">Contato</a> ∙
-		<a href="#compartilhe" class="scroll" lang="pt-br">Compartilhe&excl;</a> ∙
-		<a class="scroll social" href="http://quitter.se/desgovernanca" target="_blank"><img class="social" src="./assets/quitter.png" /></a>
-		<a class="scroll social" href="http://twitter.com/desgovernanca" target="_blank"><img class="social" src="./assets/twitter.png" /></a>
-		<!-- <a href="https://twitter.com/intent/tweet?button_hashtag=ungovForum" target="_blank">#ungovForum</a> -->
-		<a href="./blog/" class="scroll" lang="pt-br">NOVO: Blog</a>
-		</span>
-		<span id="lang-switcher" class="pull-right">
-		<!--<a href="#tr" id="tr-switcher" onclick="window.lang.change('tr'); return false;">Türk&ccedil;e</a> ∙-->
-		<!--<a href="#en" id="en-switcher" onclick="window.lang.change('en'); return false;">English</a>-->
+	<!-- <a href="#register" class="scroll" lang="pt-br">Registro</a> ∙ -->
+	<li role="presentation" class="active">
+		<a href="#contato" class="scroll" lang="pt-br">
+			<span>Contato</span>
+		</a>
+	</li>
+	<li role="presentation" class="active">
+		<a href="#compartilhe" class="scroll" lang="pt-br">
+			<span>Compartilhe&excl;</span>
+		</a>
+	</li>
+	<!-- <a href="https://twitter.com/intent/tweet?button_hashtag=ungovForum" target="_blank">#ungovForum</a> -->
+	<li role="presentation" class="active">
+		<a href="./blog/" class="scroll" lang="pt-br">
+			<span>NOVO: Blog</span>
+		</a>
+	</li>
+	<!--</span>-->
+	<!--<span id="lang-switcher" class="pull-right">-->
+	<!--<a href="#tr" id="tr-switcher" onclick="window.lang.change('tr'); return false;">Türk&ccedil;e</a> ∙-->
+	<!--<a href="#en" id="en-switcher" onclick="window.lang.change('en'); return false;">English</a>-->
 <!--		<a href="/index-tr.html">Türk&ccedil;e</a> ∙-->
-		<a class="bandeira ativo" href="./"><img class="bandeira" src="./assets/pt.png" />&nbsp;PT</a>
-		<a class="bandeira inativo" href="./en/"><img class="bandeira" src="./assets/en.png" />&nbsp;EN</a>
-		<a class="bandeira inativo" href="./fr/"><img class="bandeira" src="./assets/fr.png" />&nbsp;FR</a>
-		<a class="bandeira inativo" href="./es/"><img class="bandeira" src="./assets/es.png" />&nbsp;ES</a>
-		<a class="bandeira inativo" href="./de/"><img class="bandeira" src="./assets/de.png" />&nbsp;DE</a>
-		</span>
-	</div>
-</div>
+</ul>
+
+</div><!-- /.collapse navbar-collapse -->
+</div><!-- /.navbar-header -->
+</div><!-- /.container -->
+</nav>
 
 <a name="topo" id="topo"></a>
 
@@ -167,15 +201,18 @@ $ZZ$Z?OO7I??++++++++????+?+++++++=========~~~::::~=$$$Z$8OO8OO8OOOOI=~~~~:::::::
 		<!-- <p>
 			<a href="#announcement" class="scroll" lang="pt-br">ANNOUNCEMENT: Julian Assange at the Internet Ungovernance Forum</a>
 		</p> -->
-	</div>
-</div>
+	</div> <!-- /.container text-center -->
+</div> <!-- /.jumbotron -->
 
 <div class="body-content">
-	<div class="container text-center">
+<div class="container text-center">
 
 <a name="sobre" id="sobre"></a>
 
 <hr>
+
+<div class="row row-offcanvas row-offcanvas-right">
+<div class="col-xs-12 col-sm-10">
 
 <h2 class="text-center" lang="pt-br">Sobre</h2>
 
@@ -203,13 +240,78 @@ $ZZ$Z?OO7I??++++++++????+?+++++++=========~~~::::~=$$$Z$8OO8OO8OOOOI=~~~~:::::::
 	Convidamos as pessoas interessadas em participar dessa iniciativa a resistir &agrave; vis&atilde;o de que os problemas da Internet s&atilde;o unicamente tecnol&oacute;gicos, sem os efeitos de sua materialidade.
 </p>
 
-<a name="campanha" id="campanha"></a>
+</div> <!--/.col-xs-12 col-sm-9 -->
 
-<hr>
+<div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebar">
+<div class="list-group">
 
-<h2 lang="pt-br">Nos ajude a fazer o &num;IUF2015 acontecer&excl;</h2>
+<center>
 
-<iframe src="https://www.indiegogo.com/project/internet-ungovernance-forum--2/embedded/11877585" width="222px" height="445px" frameborder="0" scrolling="no"></iframe>
+<br />
+
+<p>
+	<img class="icone-sidebar" alt="i18n" src="./assets/applications-internet-5.png" />
+</p>
+
+<a class="list-group-item bandeira ativo" href="./">
+	<img class="bandeira" src="./assets/pt.png" />
+	<span  class="badge">&nbsp;PT</span>
+</a>
+<a class="list-group-item bandeira" href="./en/">
+	<img class="bandeira" src="./assets/en.png" />
+	<span  class="badge">&nbsp;EN</span>
+</a>
+<a class="list-group-item bandeira" href="./fr/">
+	<img class="bandeira" src="./assets/fr.png" />
+	<span  class="badge">&nbsp;FR</span>
+</a>
+<a class="list-group-item bandeira" href="./es/">
+	<img class="bandeira" src="./assets/es.png" />
+	<span  class="badge">&nbsp;ES</span>
+</a>
+<a class="list-group-item bandeira" href="./de/">
+	<img class="bandeira" src="./assets/de.png" />
+	<span  class="badge">&nbsp;DE</span>
+</a>
+
+<br />
+
+<p>
+	<img class="icone-sidebar" alt="acompanhe" src="./assets/irc-voice.png" />
+</p>
+
+<a class="list-group-item scroll social" href="http://quitter.se/desgovernanca" target="_blank">
+	<img class="social" src="./assets/quitter.png" />
+	<span  class="badge">&nbsp;Quitter</span>
+</a>
+<a class="list-group-item scroll social" href="http://twitter.com/desgovernanca" target="_blank">
+	<img class="social" src="./assets/twitter.png" />
+	<span  class="badge">&nbsp;Twitter</span>
+</a>
+
+<br />
+
+<p>
+	<img class="icone-sidebar" alt="contribua" src="./assets/emblem-advertisement-dollar.png" />
+</p>
+
+<a class="list-group-item scroll social" href="https://www.indiegogo.com/project/internet-ungovernance-forum--2" target="_blank">
+	<img class="funding" alt="Indie Go Go" src="./assets/indiegogo.png" />
+</a>
+
+<a class="list-group-item scroll social" href="http://www.banque.com.br/campanhas/forum-de-desgovernanca-da-internet-internet-ungovernance-forum-iuf" target="_blank">
+	<img class="funding" alt="Banque" src="./assets/banque.png" />
+</a>
+
+</center>
+
+</div> <!-- /.list-group -->
+
+</div> <!--/.col-xs-6 col-sm-2 sidebar-offcanvas -->
+
+</div> <!--/.row row-offcanvas row-offcanvas-right -->
+
+<br/ >
 
 <a name="convidadas" id="convidadas"></a>
 
@@ -242,7 +344,7 @@ $ZZ$Z?OO7I??++++++++????+?+++++++=========~~~::::~=$$$Z$8OO8OO8OOOOI=~~~~:::::::
 		</div><!-- /.col-lg-3 -->
 	</div><!-- /.row -->
 
-</div>
+</div> <!-- /.container marketing -->
 
 <!--<p>-->
 <!--	<em>Photograph: Protest against Internet censorship in Istanbul, Turkey 2011</em>-->
@@ -259,6 +361,18 @@ $ZZ$Z?OO7I??++++++++????+?+++++++=========~~~::::~=$$$Z$8OO8OO8OOOOI=~~~~:::::::
 <p class="lead">
 	<strong>Ainda precisamos de volunt&aacute;rias(os), por favor entre em <a href="#contato">contato</a> para se juntar ao time&excl;</strong>
 </p>
+
+<a name="campanha" id="campanha"></a>
+
+<hr>
+
+<h2 lang="pt-br">Nos ajude a fazer o &num;IUF2015 acontecer</h2>
+
+<iframe src="https://www.indiegogo.com/project/internet-ungovernance-forum--2/embedded/11877585" width="222px" height="445px" frameborder="0" scrolling="no"></iframe>
+
+<span>
+	<a href="http://www.banque.com.br/campanhas/forum-de-desgovernanca-da-internet-internet-ungovernance-forum-iuf">Banque</a>
+</span>
 
 <!--<p class="lead">-->
 	<!--<a href="https://twitter.com/intent/tweet?button_hashtag=ungovForum" class="twitter-hashtag-button"-->
@@ -780,7 +894,7 @@ $ZZ$Z?OO7I??++++++++????+?+++++++=========~~~::::~=$$$Z$8OO8OO8OOOOI=~~~~:::::::
 			<span class="caption">ZeroUm HC</span>
 		</a>
 	</div>
-</div>
+</div> <!-- /supporters clearfix -->
 
 <a name="contato" id="contato"></a>
 
@@ -803,10 +917,11 @@ $ZZ$Z?OO7I??++++++++????+?+++++++=========~~~::::~=$$$Z$8OO8OO8OOOOI=~~~~:::::::
 
 <div class="container text-center">
 	<div data-social-share-privacy='true' align="center"></div>
-</div>
+</div> <!-- /.container text-center -->
 
-</div>
-</div>
+</div> <!--/.container text-center -->
+
+</div> <!-- ./body-content -->
 
 <hr>
 
@@ -818,11 +933,12 @@ $ZZ$Z?OO7I??++++++++????+?+++++++=========~~~::::~=$$$Z$8OO8OO8OOOOI=~~~~:::::::
 	</div>
 </footer>
 
-<script type="text/javascript" src="./js/jquery.min.js"></script>
-<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="./js/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/main.js" charset="utf-8"></script>
 <script type="text/javascript" src="./js/jquery-lang.js" charset="utf-8"></script>
 <script type="text/javascript" src="./js/tr.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/offcanvas.js" charset="utf-8"></script>
 
 <!-- <script type="text/javascript" src="./js/prettify/prettify.js"></script> -->
 <!-- <script src="./js/run_prettify.js"></script> -->
