@@ -38,11 +38,12 @@ img.bandeira {
 }
 a.bandeira {
 	color:#EEE;
-	padding:0.5em;
-	font-size:xx-small;
+	/*padding:0.5em;
+	font-size:xx-small;*/
 }
-a.ativo {
-	font-size:x-large;
+.list-group a.ativo {
+	font-size:xx-large;
+	background-color:#EEE;
 }
 a.social {
 	padding:0.5em;
@@ -76,4 +77,11 @@ a.blog-nav-item {
 .navbar-header span.icon-bar {
 	background-color:#B7005B;
 }
-
+img.funding {
+	max-height:64px;
+	max-width:100%;
+}
+body {
+  background-image:url("../assets/textura.png");
+  background-repeat:repeat;
+}
