@@ -36,14 +36,9 @@ img.bandeira {
 	border-radius:0.2em;
 	box-shadow:0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
 }
-a.bandeira {
-	color:#EEE;
-	/*padding:0.5em;
-	font-size:xx-small;*/
-}
 .list-group a.ativo {
-	font-size:xx-large;
-	background-color:#EEE;
+	background-image:url("../assets/textura-cinza.png");
+	background-repeat:repeat;
 }
 a.social {
 	padding:0.5em;
@@ -53,7 +48,8 @@ img.social {
 	max-width:100%;
 }
 .blog-masthead {
-	background-color:#EEE;
+	background-image:url("../assets/textura-cinza.png");
+	background-repeat:repeat;
 }
 a.blog-nav-item {
 	color:#B7005B;
@@ -63,7 +59,8 @@ a.blog-nav-item {
 }
 .nav-pills li.active a {
 	color:#B7005B;
-	background-color:#EEE;
+	background-image:url("../assets/textura-cinza.png");
+	background-repeat:repeat;
 	border-radius:2em;
 	box-shadow:0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
 }
@@ -72,7 +69,8 @@ a.blog-nav-item {
 	background-color:#B7005B;
 }
 .navbar-header button {
-	background-color:#EEE;
+	background-image:url("../assets/textura-cinza.png");
+	background-repeat:repeat;
 }
 .navbar-header span.icon-bar {
 	background-color:#B7005B;
@@ -82,11 +80,12 @@ img.funding {
 	max-width:100%;
 }
 body, .blog-footer {
-	background-image:url("../assets/textura.png");
+	background-image:url("../assets/textura-branca.png");
 	background-repeat:repeat;
 }
 span.ativo {
-	background-color:#EEE;
+	background-image:url("../assets/textura-cinza.png");
+	background-repeat:repeat;
 	color:#B7005B;
 }
 .blog-masthead {
