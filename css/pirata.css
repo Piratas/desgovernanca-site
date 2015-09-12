@@ -65,8 +65,7 @@ a.blog-nav-item {
 	box-shadow:0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
 }
 .nav-pills li.active a:hover {
-	color:#EEE;
-	background-color:#B7005B;
+	color:#333;
 }
 .navbar-header button {
 	background-image:url("../assets/textura-cinza.png");
