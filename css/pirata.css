@@ -32,8 +32,8 @@ img.img-responsive {
 }
 img.bandeira {
 	max-height:24px;
-	max-width:100%;
-	border-radius:0.2em;
+	max-width:24px;
+	border-radius:0.1em;
 	box-shadow:0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
 }
 .list-group a.ativo {
@@ -57,15 +57,28 @@ a.blog-nav-item {
 .navbar {
 	background:none;
 }
-.nav-pills li.active a {
+.nav-pills li.menu {
+	padding:0.1em;
+	border:none;
+}
+.nav-pills li.item a {
+	padding:0.3em;
 	color:#B7005B;
 	background-image:url("../assets/textura-cinza.png");
 	background-repeat:repeat;
-	border-radius:2em;
-	box-shadow:0.1em 0.1em 0.2em 0.1em rgba(0,0,0,0.5);
+    border-radius:2em;
+	box-shadow:0.1em 0.1em 0.1em 0.1em rgba(0,0,0,0.5);
 }
-.nav-pills li.active a:hover {
+.nav-pills li.menu a:hover {
 	color:#333;
+}
+.nav-pills li.bandeira a {
+	padding:0.1em;
+	background:none;
+	border:none;
+}
+.nav-pills li.bandeira a.ativo img.bandeira {
+	box-shadow:0.1em 0.1em 0.2em 0.2em #B7005B;
 }
 .navbar-header button {
 	background-image:url("../assets/textura-cinza.png");
