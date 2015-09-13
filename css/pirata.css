@@ -103,4 +103,19 @@ span.ativo {
 .blog-masthead {
 	background:none;
 }
+.video {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	left:10%;
+	right:10%;
+}
+.video iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:80%;
+	height:90%;
+	box-shadow:0.2em 0.2em 0.2em 0.2em rgba(0,0,0,0.5);
+}
 
