@@ -126,3 +126,13 @@ span.ativo {
   font-weight: 700;
   color: #666666;
 }
+.local {
+	padding:1em;
+}
+.local img {
+	width:100%;
+	height:100%;
+	max-width:800px;
+	box-shadow:0.2em 0.2em 0.2em 0.2em rgba(0,0,0,0.5);
+}
+
