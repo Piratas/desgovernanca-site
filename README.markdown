@@ -1,12 +1,14 @@
 desgovernanca-site
 ==================
 
-Kopia adaptada e traduzida de <https://iuf.alternatifbilisim.org/>
+Fórum de Desgovernança da Internet 2015 - Brasil
 
-Site no ar em <http://iuf.partidopirata.org>
+Kopia adaptada e traduzida de <https://iuf.alternatifbilisim.org/>.
 
-Site de desenvolvimento (branch dev) em <http://iuf-dev.pirata.xyz>
+Site no ar em <http://iuf.partidopirata.org> (branch oficial).
 
-Mais informações em <http://piratas.xyz/desgovernança/>
+Site de desenvolvimento (branch master) em <http://iuf-dev.pirata.xyz>.
 
-Esta kopia segue a licença original (GPL3).
+Mais informações em <https://tree.taiga.io/project/iuf2015/wiki/>.
+
+Esta kopia segue a licença original (GPL3). Veja o arquivo LICENSE.

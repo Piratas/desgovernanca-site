@@ -1,3 +1,11 @@
 ﻿Código fonte do site: https://notabug.org/piratas/desgovernanca-site
 
+Site http://iuf-dev.pirata.xyz é atualizado a partir do branch 'master' do repositório https://gitlab.com/piratas/desgovernanca-site de hora em hora através do crontab
+
+Site http://iuf.partidopirata.org é atualizado a partir do branch 'oficial' segundo o esquema supracitado.
+
+Existe um repositório em https://github.com/piratas/desgovernanca-site
+
 Falhas de segurança deveriam ser encaminhadas para iuf [at] pirata.xyz
+
+Este fórum não é do partido pirata. Redirecione seus ataques para o site http://partidopirata.org

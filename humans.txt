@@ -35,7 +35,7 @@
 	Desenvolvedora Web: Renata D'Ávila
 	Twitter: @RSiP22
 
-	Tradutora: Camila
+	Tradutora: Mila
 	De: Internet
 
 /* AGRADECIMENTOS */
@@ -58,24 +58,44 @@
 
 	Pioneiras(os) que fizeram o primeiro forum de desgovernança na Turquia
 
-	Quem fizer questão de botar o nome aqui nos avise!
+	Piratas da Itália que extenderam o IUF2015 até lá e colaboraram ativamente
+
+	Willi que bateu de frente contra os governistas
+
+	Jack que foi até João Pessoa substituir sozinho um exército
+
+	Cafeicultores do Espírito Santo e sudeste de Minas Gerais por administrar trabalho escravo e providenciar café de qualidade para as madrugadas trabalhando pelo IUF2015
+
+	Quem fizer questão de botar o nome aqui, que nos avise!
+
+	Quem fizer questão de não ter o nome aqui, que se foda!
 
 /* DESAGRADECIMENTOS */
 
 	Article19 que retirou o apoio do site e ao IUF em geral
 
-	Sibite que atrasou a campanha brasileira
+	Oficina Antivigilância que retirou o apoio do site
+
+	Sibite que atrasou a campanha de financiamento coletivo brasileira (apesar do Banque ter concordado em fornecer parte do montante arrecadado sem atingir a meta)
+
+	Ao PIRATAS - partido pirata no Brasil, que deixou o peso deste forum nas costas de poucas(os), causando desgaste pessoal e praticamente boicotando a iniciativa
+
+	Aos PIRATAS Gaúchos, por não doarem o dinheiro arrecadado no FISL16 para o IUF2015
 
 /* SITE */
 	Licença: GPL 3.0
 	Código fonte: https://notabug.org/piratas/desgovernanca-site
-	Última atualização: 24 de setembro de 2015
+	       Espelho: https://gitlab.com/piratas/desgovernanca-site
+	       Espelho: https://github.com/piratas/desgovernanca-site
+	Última atualização: 08 de novembro de 2015 - R.I.P. Aaron Swartz
 	Linguagens: Português Brasileiro / English / Francês / Espanhol / Alemão
 	Doctype: HTML5
 	Softwares utilizados:
-		Edição de texto: Vim, Gedit, Notepad++, Etherpad, Hackpad, LibreOffice;
+		Edição de texto: Vim, Gedit, Notepad++, Etherpad, Hackpad, LibreOffice, Emacs;
 		Edição de imagens: GIMP, Photoshop (pirata), Adobe Illustrator (pirata), Photoshop (pirata);
-		Desenvolvimento web: ssh, scp, rsync, git, Git Bash, Gogs;
-		Manutenção do site: Xen, Debian, Nginx;
+		Desenvolvimento web: ssh, scp, rsync, git, Git Bash, Gogs, Gitlab;
+		Manutenção do site: Xen, Debian, Nginx, rsync, ssh, bash, crontab;
 		Comunicação: ZapZaPirata, Telegram, Loomio, Riseup, Googlemail;
+		Organização: Taiga, Loomio, Lorea/Elgg (Saravea);
 	Kopiado do original em https://iuf.alternatifbilisim.org/
+	Fonte de inspiração para http://iufitalia.net
