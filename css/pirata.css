@@ -135,5 +135,12 @@ span.ativo {
 	max-width:800px;
 	box-shadow:0.2em 0.2em 0.2em 0.2em rgba(0,0,0,0.5);
 }
-
+video.stream {
+	width:100%;
+}
+.nav-pills li.live a {
+	background-color:#B7005B;
+	background-image:none;
+	color:white;
+}
 
