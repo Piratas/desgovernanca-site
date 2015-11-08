@@ -143,6 +143,9 @@ video.stream {
 	background-image:none;
 	color:white;
 }
+table, thead, tbody, th, tr, td {
+	text-align:center;
+}
 
 /* http://elvery.net/demo/responsive-tables/ */
 @media only screen and (max-width: 800px) {
@@ -154,8 +157,7 @@ video.stream {
 	th, 
 	td, 
 	tr { 
-		display: block;
-		text-align:center;
+		display: block; 
 	}
  
 	/* Hide table headers (but not display: none;, for accessibility) */
